@@ -1,0 +1,113 @@
+body{
+    text-align: center;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    background-color: #4B6587;
+}
+h1{
+    font-family: 'Patrick Hand', cursive;
+    color: #F0E5CF;
+}
+h2{
+    font-family: 'Patrick Hand', cursive;
+    color: #F0E5CF;
+}
+span{
+    text-decoration: underline;
+}
+hr{
+    border: none;
+    border-top: dotted;
+    width: 80%;
+    border-width: 6px;
+    border-color: #F0E5CF;
+}
+p{
+    color: #F7F6F2;
+    font-size: 25px;
+}
+a{
+    size: 10px;
+    margin-bottom: 10px;
+}
+
+
+/***************************************************** Classes *****************************************************/
+
+.cloud-bottom{
+    position: absolute;
+
+}
+.top-cloud{
+    position:relative;
+    left:200px;
+    
+}
+.top{
+    margin-top: 50px;
+}
+.mtn{
+    width:800px
+}
+.keshav{
+    max-width: 200px;
+    max-height: 200px;
+}
+.hello{
+    display: inline-block;
+    margin: auto;
+}
+.skill{
+    display: inline-block;
+    margin:auto 180px auto 180px;
+}
+.htmlcss{
+    width: 280px;
+    
+    float:left;
+}
+.desc{
+    text-align: left;
+    font-size: 25px;
+}
+.cpp{
+    float:right;
+    width:200px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.desc2{
+    text-align: left;
+    font-size: 25px;
+    margin-left: 40px;
+}
+.bottom-img{
+    display: inline;
+    padding: 20px;
+    width:50px;
+}
+/***************************************************** ID'S *****************************************************/
+#name{
+    font-size: 4.375em;       /*16px = 100% = 1em */
+    margin-top: 10px;
+}
+#para{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+#skills{
+    margin-top: 10px;
+    font-size: 90px;
+}
+#web{
+    text-align: left;
+    font-size: 30px;
+}
+#hello{
+    font-size:30px;
+}
+#cp{
+    margin-left: 40px;
+    margin-top: 60px;
+    text-align: left;
+    font-size: 30px;
+}
