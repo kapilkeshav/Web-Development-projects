@@ -1,0 +1,269 @@
+body{
+    margin: 0px 0px 0px 0px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    text-align: center;
+
+}
+button{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 18px;
+}
+hr{
+    border:solid lightgrey;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-top-width: 1px;
+    width:100%;
+}
+h1{
+    text-align: left;
+    font-size: 50px;
+    margin-bottom: 7px;
+}
+h2{
+    margin-left: 10px;
+}
+td{
+    text-align: left;
+    padding-right: 10px;
+}
+
+/*------------------------------------Classes------------------------------------*/
+
+.logoimg{
+    width: 80px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.buttons{
+    display: flex;
+    align-items: center;
+
+}
+.icon{
+    width:40px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+}
+.content{
+    background-color:#F4F9F9;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    display:block;
+    text-align: left;
+}
+.subhead{
+    margin-top: 2px;
+    text-decoration: none;
+    color: grey;
+}
+.info{
+    display: flex;
+}
+
+.photo{
+    width:44px;
+    float:left;
+    margin-right: 20px;
+}
+.user{
+    display: block;
+    width:200px;
+}
+.try{
+    display: flex;
+    justify-content: space-between;
+}
+.handle{
+    margin-left: 400px;
+    margin-top: 18px;
+}
+.handles{
+    width:20px;
+    padding: 2px;
+}
+.article{
+    text-align: left;
+    width:700px;
+}
+.spoon{
+    position:relative;
+    float: left;
+    width:490px;
+    right:22px;
+}
+.dot{
+    background-color:#F4F9F9;
+}
+.end{
+    margin: auto 150px auto 150px;
+    text-align: left;
+}
+.extra{
+    display: flex;
+    justify-content: space-evenly;
+}
+.square{
+    width:70px;
+    height: 70px;
+    float:right;
+
+}
+.links{
+    margin-left: 12px;
+}
+.table{
+    height: 200px;
+    margin:auto 150px auto 150px;
+}
+.t{
+    display: flex;
+    justify-content: center;
+}
+.end{
+    background-color:#F4F9F9;
+    margin:auto 0px auto 0px;
+}
+.footer{
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    flex-direction:column ;
+    margin-top:30px;
+    
+}
+.text{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    width:90%;
+    margin-top:70px;
+}
+.i{
+    width:33%;
+    margin-right: 30px;
+}
+.bottom{
+    display: flex;
+    justify-content:space-between;
+    width:90%;
+    margin-bottom:50px;
+}
+.logot{
+    width:200px;
+    position: relative;
+    right:30px;
+   
+}
+.buttonsl{
+    display: flex;
+    align-items: center;
+    
+}
+/*------------------------------------Id's------------------------------------*/
+#gs{
+    border-radius: 99em;
+    color:#1a8917;
+    border: 2px solid #1a8917;
+    background-color: white;
+    width: 120px;
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    margin-left: 16px;
+    font-size: 15px;
+}
+#signin{
+    background-color: white;
+    color: #1a8917;
+    border:none;
+}
+#signin:hover{
+    color:pink;
+}
+#gs:hover{
+    background-color: #112031;
+    color:white;
+}
+#spacel{
+    margin-left: 30px;
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+}
+#spacel:hover{
+    color: black;
+}
+#know{
+    color: grey;
+    font-size: 13px;
+    margin-top: 0;
+}
+#username{
+    margin-bottom: 0;
+    margin-top:0;
+}
+#a{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-size: 18px;
+    margin-left: 10px;
+}
+#planet{
+    width:700px;
+}
+#sep{
+    font-size: 30px;
+    margin-left: 18px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+#end1{
+    margin-top: 5px;
+    width:80%;
+}
+#more{
+    margin-bottom:10px;
+    margin-left: 140px;
+    margin-top:0px;
+}
+#bl{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+#author{
+    margin-top: 4px;
+    font-size: 14px;
+}
+#th{
+    color: white;
+    margin: auto 0px 5px auto;
+}
+#para{
+    color:lightgrey;
+    margin-top:0px;
+    font-size: 14px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+#link{
+    color: lightgrey;
+}
+#last{
+    width:90%;
+    margin: 20px auto 20px auto;
+}
+#spacell{
+    margin-left: 20px;
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+}
